@@ -1,6 +1,7 @@
 var todoList = {
     todos: [],
     displayTodos: function() {
+        debugger;
         if (this.todo.length === 0){
             console.log('Your todo list is empty!');
         } else {
